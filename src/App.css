@@ -1,0 +1,47 @@
+body {
+  background-image: linear-gradient(rgb(9, 174, 240), pink, rgb(138, 99, 99));
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+.main {
+  display: flex;
+  justify-content: center;
+
+  font-size: 25px;
+}
+.center {
+  display: flex;
+  justify-content: center;
+}
+.text {
+  display: flex;
+  justify-content: center;
+}
+.btn2 {
+  width: 100px;
+  height: 30px;
+  border-radius: 10px;
+  /* border: 5px solid black; */
+  background-color: red;
+  color: white;
+  /* font-size: 25px; */
+  font-weight: bold;
+}
+.btn1 {
+  width: 100px;
+  height: 30px;
+
+  margin-bottom: 20px;
+}
+.btn1:hover {
+  background-color: yellow;
+}
+.down {
+  display: flex;
+  justify-content: center;
+}
+.btn3 {
+  width: 100px;
+  height: 30px;
+  border-radius: 15px;
+}
